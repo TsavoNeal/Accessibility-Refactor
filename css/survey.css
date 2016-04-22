@@ -1,0 +1,61 @@
+/* Survey page styles */
+
+.photo {
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter{
+  text-align: right;
+  padding-top: 25px;
+}
+.newsletter label {
+  display: inline !important;
+}
+
+.survey label {
+  display: inline;
+}
+
+.hint {
+  font-size: 0.75em;
+}
+
+label {
+  display: block;
+  padding-bottom: 5%;
+}
+
+input:focus {
+  outline-color: #DF811E;
+}
+textarea:focus {
+  outline-color: #DF811E; 
+}
+select:focus {
+    outline-color: #DF811E; 
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  text-decoration: underline;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
