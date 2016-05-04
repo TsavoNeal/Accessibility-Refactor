@@ -4,9 +4,17 @@ pre {
   font-family: 'Open Sans', sans-serif;
 }
 
-.heading{
-  display: inline-block;
+.heading {
+  display: block;
   margin: 0;
+}
+.heading::before {
+	content: url(../img/guitar_pick.png);
+	margin-right: 1%;
+}
+.heading::after {
+	content: url(../img/guitar_pick.png);
+	margin-left: 1%;
 }
 
 .pick{
